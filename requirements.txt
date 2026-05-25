@@ -1,0 +1,25 @@
+# ─────────────────────────────────────────────
+# Track 3: Domain-Specific RAG Chatbot
+# Requirements
+# ─────────────────────────────────────────────
+
+# Document parsing
+pypdf==4.2.0
+
+# Embeddings
+sentence-transformers==3.0.1
+
+# Vector search
+faiss-cpu==1.8.0
+
+# Text chunking utility from LangChain (only the splitter, lightweight)
+langchain-text-splitters==0.2.2
+
+# LLM via Groq (free LLaMA 3 API)
+groq==0.9.0
+
+# Streamlit for the demo app
+streamlit==1.36.0
+
+# Numerical computing
+numpy==1.26.4
